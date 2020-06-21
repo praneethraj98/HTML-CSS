@@ -1,0 +1,2 @@
+Apply shadows to the text,
+Isnt uses as often , Refer manual for more clarity if needed 

@@ -1,0 +1,4 @@
+li:nth-child can be used for styling only the required items
+li:nth-child(0dd)- Chooses odd elements
+li:nth-child(even)- Chooses even elements
+li:nth-child(3n+7)-7 is the offset here, Every 3rd element from 7
