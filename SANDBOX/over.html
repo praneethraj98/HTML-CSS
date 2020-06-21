@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding:0 ;
+    }
+    p{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 1.3rem;
+    }
+    .container{
+      background: url('https://source.unsplash.com/daily')no-repeat fixed center center/cover;
+      height: 100vh;
+      width: 100%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+
+    }
+    #over1{
+      background: #000;
+      width: 100%;
+      height: 100vh;
+      opacity: 0.7;
+      position: absolute;
+
+    }
+    .zmax{
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="zmax">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eaque est pariatur ullam nesciunt aperiam natus quis corrupti quo perspiciatis?</p>
+    <div id="over1"></div>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page(using before)</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background: #333;
+    }
+    a{
+      font-size: 1.3rem;
+      color: red;
+      text-decoration: none;
+    }
+    a:hover{
+      color: coral;
+    }
+    #main-heading{
+      font-size: 2.5rem;
+    }
+    .para{
+      padding: 1rem 2rem;
+      font-size: 1.4rem;
+    }
+    header{
+      
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header:before{
+      
+      content: '';
+      
+      background: url('https://source.unsplash.com/weekly?water')fixed no-repeat center center/cover;
+      opacity: 0.1;
+      position: absolute;
+      top: 0;
+      left:0 ;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    #secondary-heading{
+      padding-top: 35px;
+      
+      display: flex;
+      justify-content: center;
+    }
+    span{
+      color: coral;
+      padding-right: 7px;
+    }
+    #secondary-heading{
+      font-size: 2rem;
+    }
+    section{
+      padding-bottom: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2 id="main-heading">Hello There</h2>
+    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto quibusdam commodi consectetur. Harum vero et, dicta earum atque rerum magnam.</p>
+    <a href="#">Find Out More!</a>
+  </header>
+  <section>
+    <h2 id="secondary-heading"><span>About</span>  Us</h2>
+    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto suscipit aspernatur culpa dicta numquam, a impedit cumque voluptas asperiores magni?</p>
+  </section>
+</body>
+</html>

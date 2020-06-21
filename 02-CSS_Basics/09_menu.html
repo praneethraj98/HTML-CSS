@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar and sidebar</title>
+  <style>
+   .navbar{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+     background-color: #4c6ca0;
+     max-width:fit-content;
+     
+    
+     border-radius: 5px ;
+     overflow: auto;
+
+   }
+   .navbar li{
+     float: left;
+   }
+   .navbar li a{
+     display: block;
+     font-size: x-large;
+     text-decoration: none;
+     padding: 10px;
+   }
+   .navbar li a:hover{
+     color:black;
+     background-color:  #445190;
+     cursor: pointer;
+     
+   }
+   .sidebar{
+    background-color: #eee;
+     max-width: 500px;
+     list-style-type: none;
+     border: 2.5px solid grey;
+     border-radius: 5px;
+     padding: 20px;
+   }
+   .sidebar li{
+     
+     line-height: 2.4em;
+     font-size: x-large;
+     border-bottom: grey 1.5px solid;
+     
+   }
+   .sidebar li a{
+     text-decoration: none;
+     margin-bottom: 2px dotted black;
+   }
+   .sidebar li a:last-child{
+     margin-bottom: none;
+   }
+   .sidebar li a:hover{
+     color: coral;
+     cursor: pointer;
+     
+   }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="#">Welcome</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Copyright</a></li>
+  </ul>
+  <ul class="sidebar">
+    <li><a href="#">Welcome</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Copyright</a></li>
+   
+  </ul>
+  
+</body>
+</html>

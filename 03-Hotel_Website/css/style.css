@@ -1,0 +1,267 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  line-height: 1.7em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.clr{
+  clear: both;
+}
+.con{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0px 20px;
+  
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+h1 , h2 , h3{
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0px;
+}
+#nav{
+  background-color: black;
+  color: white;
+  overflow: auto;
+}
+#nav a{
+  color: white;
+}
+#nav h1{
+  text-align: center;
+  float: left;
+  padding: 20px 0px;
+}
+#nav ul li {
+  list-style: none;
+}
+#nav ul{
+  float: right;
+}
+#nav ul li{
+  float: left;
+}
+#nav ul li a{
+  display: block;
+  padding: 20px 20px;
+}
+#nav ul li a:hover,
+#nav ul li a.current{
+  color:#f7c08a ;
+  background-color: #444;
+}
+#main{
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 600px;
+  text-align: center;
+  padding-top: 200px;
+}
+#main h1
+{
+  font-size: 60px;
+  color: white;
+} 
+#main h1 span{
+  color: #f7c08a;
+}
+#main p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 20px;
+  font-size: 22px;
+  color: white;
+  padding-bottom: 30px;
+}
+#main a{
+  font-size: 18px;
+  background-color: black;
+  color: white ;
+  padding:15px 15px;
+}
+#main a:hover{
+  background-color:  #f7c08a;
+}
+#img1{
+  height: 500px;
+  background: url(../img/photo-1.jpg);
+  float: left;
+  width: 50%;
+  
+}
+#info1{
+  height: 500px;
+  color: white;
+  background-color: black;
+  padding-top: 150px;
+  float: right;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#info1 h2 span{
+  color:#f7c08a ;
+}
+#info1 a{
+  color: black;
+  background-color: white;
+  padding:15px 15px;
+}
+#info1 p{
+  padding-bottom: 25px;
+}
+ #loc, #free, #fit{
+   text-align: center;
+   width: 33.33333%;
+   padding:50px 20px ;
+  float: left ;
+}
+#free{
+  background-color:#f7c08a;
+}
+#foot{
+  padding: 15px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.container{
+  padding: 20px 20px;
+}
+
+#aboutinfo #infr{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#aboutinfo #infr img{
+  height: 250px;
+  border-radius: 70%;
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+#aboutinfo #infl {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#aboutinfo h1 span{
+  color:#f7c08a ;
+}
+#aboutinfo h1{
+  text-align: center;
+}
+#test{
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+.testimonialc{
+  height: 130px;
+  background-color:#f7c08a ;
+}
+.testimonialc img{
+  
+  width: 100px;
+}
+#test h2{
+  color: white;
+  font-weight: 25px;
+  font-family: cursive;
+  text-align: center;
+}
+#test .testimonialc{
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 20px 20px;
+}
+#test .testimonialc img{
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#contactus .containerfinal{
+  padding: 35px 200px;
+}
+#contactus .containerfinal #headerfin h1{
+  font-size: 37px;
+}
+#contactus .containerfinal #headerfin h1 span{
+  color: #f7c08a;
+}
+#contactus #n{
+  color: grey;
+  margin-bottom: 15px;
+}
+#contactus #n input{
+  border: 1px #ddd solid;
+  outline: none;
+  
+  width: 100%;
+  height: 27px;
+  
+  
+}
+#contactus #ema{
+  
+  color: grey;
+  margin-bottom: 15px
+}
+#contactus #ema input{
+  border: 1px #ddd solid;
+  outline: none;
+   
+  width: 100%;
+  height: 27px;
+  
+  
+}
+#contactus #ema input:focus,
+#contactus #n input:focus{
+  outline: none;
+  border-color:#f7c08a;
+}
+#contactus #mes textarea{
+  border: 1px #ddd solid;
+  width: 1120px;
+  height: 200px;
+}
+#contactus #mes textarea:focus{
+  outline: none;
+  border-color:#f7c08a ;
+}
+#contactus #bts {
+  margin-top:20px ;
+}
+#contactus #bts button{
+  border:none;
+  background-color: black;
+  color:white ;
+  padding: 15px 15px;
+  font-size: 20px;
+}
+#contactus #bts button:hover{
+  
+  background-color: #f7c08a ;
+  color: white;
+  cursor: pointer;
+}
+#box1, #box2, #box3{
+  background-color: #383838	;
+  color: white;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding:50px 20px ;
+  margin-bottom: 20px;
+  
+}

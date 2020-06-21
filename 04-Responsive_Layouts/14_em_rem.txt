@@ -1,0 +1,47 @@
+em unit - multiplier/relative to the font size of parent container
+rem unit - multiplier/relative to the font size of root html 
+
+default root html font size is 16px
+
+...................................em..............................................................
+
+p - font size and margin = 1em of the parent container (if box-1 font size = 1em, p = 1em)
+h1,2,3 - font size = 1.17em (if box-1 font size = 1em, h3 = 1.17em)
+
+#box-1 p {
+      font-size: 1.5em;
+      padding: 1em;
+    }
+
+    font size = 1.5 * 20 = 30px
+    padding = 1 * 20 = 30px            #padding uses font-size as 1em
+
+
+#box-1 ul {
+      font-size: 1.2em;
+    }
+
+    outer li font size = 1.2 * 20 = 24px
+    nested li font size = 1.2 * 24 = 28.8px           #nested list looks bigger
+
+....................................rem...................................................................
+
+html {
+      font-size: 62.5%;
+    }
+
+    font size of root html = 16 * 62.5 = 10px
+
+#box-2 p {
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
+
+    font-size = 1.6 * 10 = 16px
+    line-height = 1.7 * 10 = 17px                 #much less confusing than em
+
+
+Changing font size on Chrome Settings will change the ones with rem units
+em units will remain unchanged
+
+rem is more responsive, accessible and adaptive than em

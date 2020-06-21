@@ -1,0 +1,1 @@
+The files within this folder were all created when tinkering with things.A sandbox for ideas 

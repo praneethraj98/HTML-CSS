@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Targeted Selectors</title>
+  <style>
+    body
+    {
+      font-size: 30px;
+    }
+    div p{
+      background:grey;
+    }
+    div > p{
+      color: red;
+    }
+    div + p{
+      color: royalblue;
+    }
+    input[type='text']
+    {
+      text-align: center;
+      color: red;
+      width: 100%;
+    }
+    label{
+      text-align: center;
+    }
+    .tc{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>item1</ul>
+    <ul><p>item2</p></ul>
+    <ul>item3</ul>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur.</p>
+  <label class="tc" for="name">Name</label>
+  <input type="text" placeholder="Name">
+  <label for="email">Email</label>
+  <input type="text" placeholder="Email">
+  <label for="address" >Address</label>
+  <input type="text" placeholder="Address">
+  <label for="pin">Pin Code</label>
+  <input type="text" placeholder="Pincode">
+  <label for="country">Country</label>
+  <input type="text" placeholder="Country">
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nth child</title>
+  <style>
+    li{
+      color: blue;
+      list-style: none;
+      padding: 0.2rem;
+      margin: 0.2rem 0.2rem;
+    }
+    #one li:nth-child(3){
+      background-color: #444;
+    }
+    #two li:nth-child(2n){
+      background-color: #444;
+
+    }
+    #three li:nth-child(3n){
+      background-color: #333;
+    }
+    #four li:nth-child(3n+7){
+      background-color: #333;
+    }
+    #five li:nth-child(odd){
+      background-color: #777;
+    }
+    #five li:nth-child(even){
+      background-color: #444;
+    }
+    #one ,#two , #three , #four , #five{
+      border-bottom: 5px dotted red;
+    }
+  </style>
+</head>
+<body>
+  <div id="one">
+   <ul>
+     <li>ITEM 1</li>
+     <li>ITEM 2</li>
+     <li>ITEM 3</li>
+     <li>ITEM 4</li>
+     <li>ITEM 5</li>
+     <li>ITEM 6</li>
+     <li>ITEM 7</li>
+     <li>ITEM 8</li>
+     <li>ITEM 9</li>
+     <li>ITEM 10</li>
+   </ul>
+  </div>
+  <div id="two">
+   <ul>
+     <li>ITEM 1</li>
+     <li>ITEM 2</li>
+     <li>ITEM 3</li>
+     <li>ITEM 4</li>
+     <li>ITEM 5</li>
+     <li>ITEM 6</li>
+     <li>ITEM 7</li>
+     <li>ITEM 8</li>
+     <li>ITEM 9</li>
+     <li>ITEM 10</li>
+   </ul>
+  </div>
+  <div id="three">
+   <ul>
+     <li>ITEM 1</li>
+     <li>ITEM 2</li>
+     <li>ITEM 3</li>
+     <li>ITEM 4</li>
+     <li>ITEM 5</li>
+     <li>ITEM 6</li>
+     <li>ITEM 7</li>
+     <li>ITEM 8</li>
+     <li>ITEM 9</li>
+     <li>ITEM 10</li>
+   </ul>
+  </div>
+  <div id="four">
+   <ul>
+     <li>ITEM 1</li>
+     <li>ITEM 2</li>
+     <li>ITEM 3</li>
+     <li>ITEM 4</li>
+     <li>ITEM 5</li>
+     <li>ITEM 6</li>
+     <li>ITEM 7</li>
+     <li>ITEM 8</li>
+     <li>ITEM 9</li>
+     <li>ITEM 10</li>
+   </ul>
+  </div>
+  <div id="five">
+   <ul>
+     <li>ITEM 1</li>
+     <li>ITEM 2</li>
+     <li>ITEM 3</li>
+     <li>ITEM 4</li>
+     <li>ITEM 5</li>
+     <li>ITEM 6</li>
+     <li>ITEM 7</li>
+     <li>ITEM 8</li>
+     <li>ITEM 9</li>
+     <li>ITEM 10</li>
+   </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Before and after</title>
+  <style>
+  .is-required::after{
+    content:'*';
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+</style>
+</head>
+<body>
+  <div>
+  <label class="is-required" for="name">Name</label>
+  <input type="text">
+  </div>
+</body>
+</html>

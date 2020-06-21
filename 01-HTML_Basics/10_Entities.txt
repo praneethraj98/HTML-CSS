@@ -1,0 +1,3 @@
+We can use several symbols not present on keyboard like indian rupee symbol, Copyright , Registered symbols, Computer button like text
+The syntax is &copy;
+The above entity gives us a copyright symbol when displayed

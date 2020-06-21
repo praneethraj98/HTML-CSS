@@ -1,0 +1,16 @@
+align-items and justify-content are used on containers, not on the items themselves (because they align all items)
+
+
+align-items is used to align on the cross axis
+align-items: center/flex-start/flex-end/stretch
+  -> align to center/start/end of the cross axis
+
+
+justify-content is used to align on the main axis
+justify-content: center/flex-start/flex-end/stretch/space-around/space-between
+  -> align to center/start/end of the cross axis
+  ->space-around and space-between used to manage space between items
+
+
+
+align-self used to align individual items

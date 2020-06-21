@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background: #444;
+    }
+    a{
+      color: red;
+      text-decoration: none;
+    }
+    a:hover{
+      color: coral;
+    }
+    header{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 20px;
+    }
+     header h1{
+       font-size: 2.5rem;
+       padding-bottom: 10px;
+
+    }
+    header a{
+      font-size:1.2rem ;
+      padding-top: 10px;
+    }
+    p{
+      color: gainsboro;
+      font-size: 1.2rem;
+    }
+    header:before{
+      content:'';
+      background: url('https://source.unsplash.com/weekly?water')fixed no-repeat center center/cover;
+      position: absolute;
+      opacity: 0.4;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    h5{
+      font-size: 2rem;
+    }
+    .about{
+      
+      padding: 20px 10px;
+      display: flex;
+    }
+    .about h5{
+      padding-right: 10px;
+    }
+    .about p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    span{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span>Welcome</span> To Our Site</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eum sit voluptate cupiditate ea. Incidunt officia rerum fuga. Sequi consectetur quos tenetur reiciendis molestias blanditiis tempore aliquam dolor placeat mollitia deleniti, aut fugit! Iusto, facere. Accusamus officia earum odit hic ratione porro consequatur non. Molestias tempore obcaecati maxime earum nisi.</p>
+    <a href="#">Find Out More</a>
+  </header>
+  <section class="about">
+    <h5><span>About</span> Us</h5>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam incidunt aut minus similique quae explicabo saepe ipsam illum velit tempora?</p>
+  </section>
+</body>
+</html>

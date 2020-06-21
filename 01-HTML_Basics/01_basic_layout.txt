@@ -1,0 +1,3 @@
+This website displays the heading and the paragraph of the index page
+<h1></h1> is the heading tag,One h1 per website is recommended
+<p></p>is the paragraph tag
