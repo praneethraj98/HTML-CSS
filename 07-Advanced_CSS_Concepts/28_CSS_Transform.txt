@@ -1,0 +1,7 @@
+Transform has 3 main types
+1.Skew,2.Scale,3.Rotate
+Transform can be used in conjunction with transition to make smooth animations
+transform:translatex(100px)-Moves the element 100px to the right along x axis
+transform:translatey(100px)-Moves the element 100px to the left along y axis
+transform:translate(100px,100px)-Moves the element 100px  along x axis and 100px along y axis
+transform:translate3d(100px,100px,100px)-Moves the element 100px  along x axis and 100px along y axis,Also has better performance

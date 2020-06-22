@@ -1,0 +1,8 @@
+Animations can be added using the animate property
+Animation name is required
+A keyframe with the animation name
+SYNTAX: animation name:animate1;
+        @keyframes animate1{}
+Delay,Iteration count,Fill mode,Duration,direction can be added
+We can also move elements using top,left,right inside the keyframe
+Do move divs make sure to keep position:relative

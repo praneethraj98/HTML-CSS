@@ -1,0 +1,15 @@
+We can use percentages within our keyframe to have more control over pur animations
+@keyframes animate1{
+  25%{
+    
+  }
+  50%{
+
+  }
+  75%{
+
+  }
+  100%{
+
+  }
+}

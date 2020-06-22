@@ -1,0 +1,5 @@
+CSS_Variables are used to to hold values
+Can be used when we want to use a particular value repeatedly in the HTML document(Primary colors,Secon dary colors etc)
+:root is where the varaibles are declared
+Any variable declared here can be used in the entire HTML document
+Syntax:--VAR-NAME-HERE:value;

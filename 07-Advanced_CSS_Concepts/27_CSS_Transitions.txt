@@ -1,0 +1,3 @@
+Transitions can be used to make certain effects smoother
+Upon hover we can chang color and other properties
+Can be used on a button to make the hover effect smoother
