@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Columns</title>
+  <style>
+    *{
+
+    }
+    .item{
+      margin: 5px 0px;
+      border: black solid 1px;
+      padding: 2rem;
+      font-size: 22px;
+      background-color: grey;
+    }
+    .con{
+      display: grid;
+      /* grid-template-columns: 200px 200px 200px; */
+      /* grid-template-columns: 200px auto 200px; */
+      /* grid-template-columns: auto auto auto; */
+      /* grid-template-columns:repeat(6,auto) */
+      grid-template-columns:1fr 2fr 1fr;
+      grid-gap: 1rem;
+    }
+    #header{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .box{
+      padding: 1rem;
+      border: grey solid 2.5px;
+      text-align: center;
+      margin: 10px 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="item">ITEM1</div>
+    <div class="item">ITEM2</div>
+    <div class="item">ITEM3</div>
+    <div class="item">ITEM4</div>
+    <div class="item">ITEM5</div>
+    <div class="item">ITEM6</div>
+  </div>
+  <div id="header">
+    <div class="box">
+      <h1>Welcome!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at ut modi. Architecto quia magni cupiditate facilis est. Exercitationem, quas?</p>
+    </div>
+    <div class="box">
+      <h1>About</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse earum ipsum dignissimos voluptates consequatur mollitia quisquam blanditiis minima ut?</p>
+    </div>
+  </div>
+</body>
+</html>

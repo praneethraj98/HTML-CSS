@@ -1,0 +1,15 @@
+CSS grid is a way to manipulate along 2 dimensions.
+Usually used in conjunction with flex.
+Display grid on parent container makes its children grid items.
+Can manipulate the grid items ,
+Using grid-template-columns:200px 200px , Makes a 200px column with 2 per row
+Grid gap is used to add gap between the elements
+Fraction values can also be used
+grid-template-columns:1fr 1fr 2fr;
+Creates 3 boxes with the first 2 having same size and the last box having 2times the size
+Repeat propety can also be used
+grid-template-columns:repeat(3,1fr 1fr 2fr)
+The above line does the following
+Repeat for 3boxes with the following fraction values
+Repeat auto auto auto can be used to center 3 boxes with equal dimensions 
+grid-template-columns:repeat(3,auto auto auto)

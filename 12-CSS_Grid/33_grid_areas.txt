@@ -1,0 +1,12 @@
+Grid areas can be used to map out your website layout!
+Very easy to align them in accordance to your whims.
+grid-template-areas:
+      'header header'
+      'contentleft contentright'
+      'about about'
+      'footer footer';
+      header header:Here there are a max of 2 columns,
+      And the header occupies the complete width.
+      contentleft and contentright occupt 50% of width.
+      about occupies 100% width.
+      footer also occupies 100% width.

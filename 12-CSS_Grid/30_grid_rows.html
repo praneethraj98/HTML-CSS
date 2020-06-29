@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Columns</title>
+  <style>
+    *{
+
+    }
+    .item{
+      margin: 5px 0px;
+      border: black solid 1px;
+      padding: 2rem;
+      font-size: 22px;
+      background-color: grey;
+    }
+    .con{
+      display: grid;
+      grid-template-rows: 1fr 2fr 3fr;
+      grid-auto-rows: 3fr;
+      grid-template-columns: repeat(3,auto);
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="con">
+    <div class="item">ITEM1</div>
+    <div class="item">ITEM2</div>
+    <div class="item">ITEM3</div>
+    <div class="item">ITEM4</div>
+    <div class="item">ITEM5</div>
+    <div class="item">ITEM6</div>
+    <div class="item">ITEM7</div>
+    <div class="item">ITEM8</div>
+    <div class="item">ITEM9</div>
+  </div>
+</body>
+</html>

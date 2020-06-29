@@ -1,0 +1,2 @@
+Auto-fit in conjunction with min-max can make the grid responsive.
+Applicable to few cases.

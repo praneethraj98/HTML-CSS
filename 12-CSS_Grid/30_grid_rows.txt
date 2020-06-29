@@ -1,0 +1,6 @@
+Similar to grid columns we can also use GRID rows,
+grid-template-rows: repeat(2,auto);
+Gives us 2 rows with equal size.
+grid-rows-auto:2fr;
+Any row not specified will have the above sizing.
+

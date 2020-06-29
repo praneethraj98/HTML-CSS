@@ -1,0 +1,1 @@
+Media queries can be added to make the site more responsive on other devices.

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Areas</title>
+  <style>
+    
+    .box{
+      font-family: Arial, Helvetica, sans-serif;
+      border: 1px solid black;
+      margin: 5px 5px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container{
+      display: grid;
+      grid-template-areas:
+      'header header'
+      'contentleft contentright'
+      'about about'
+      'footer footer';
+    }
+    #header{
+      grid-area: header;
+    }
+    #contentleft{
+      grid-area: contentleft;
+    }
+    #contentright{
+      grid-area: contentright;
+    }
+    #about{
+      grid-area: about;
+    }
+    #footer{
+      grid-area: footer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="header" class="box">
+      <h1>Welcome To Our Website!</h1>
+    </div>
+    <div id="contentleft" class="box">
+      <h2>Content Left</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint rem eos earum nemo commodi vel fuga suscipit in repellat.</p>
+      
+    </div>
+    <div id="contentright" class="box">
+      <h2>Content Right</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint rem eos earum nemo commodi vel fuga suscipit in repellat.</p>
+
+    </div>
+    <div id="about" class="box">
+      <h2>About Us</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, tempora voluptatem numquam recusandae harum earum unde quibusdam, aliquam assumenda enim incidunt? Alias quam voluptas illum vel provident in illo quo reiciendis rerum praesentium? Necessitatibus excepturi dolor inventore totam beatae nesciunt, sint explicabo dolore non velit labore neque aspernatur possimus asperiores!
+      </p>
+    </div>
+    <div id="footer" class="box">
+     <p> Copyright &copy; 2020</p>
+    </div>
+  </div>
+</body>
+</html>

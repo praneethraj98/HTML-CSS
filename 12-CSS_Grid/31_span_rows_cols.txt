@@ -1,0 +1,9 @@
+We can span multiple rows and columns using grid
+We can use ;
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+or a shorthand
+grid-column: 1 /span 3;
+grid-row: 1 /span 3
